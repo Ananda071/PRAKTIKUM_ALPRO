@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="advan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 08.07.54 PM"/>
+        <attribute name="created" value="YWR2YW47REVTS1RPUC01OExDSkk3OzIwMjMtMDktMjc7MTEuNTkuMDMgQU07MjgwOA=="/>
+        <attribute name="edited" value="YWR2YW47REVTS1RPUC01OExDSkk3OzIwMjMtMDktMjg7MDguMDcuNTQgUE07ODsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gram, pergram, habel, hajul, tahun1" type="Integer" array="False" size=""/>
+            <output expression="&quot;aku membeli emas di tahun&quot;" newline="True"/>
+            <input variable="tahun1"/>
+            <output expression="&quot;emas punyaku saat ini (gram)&quot;" newline="True"/>
+            <input variable="gram"/>
+            <output expression="&quot;harga1&quot;" newline="True"/>
+            <input variable="pergram"/>
+            <assign variable="habel" expression="pergram*gram"/>
+            <output expression="&quot;harga beli tahun 2022=&quot;&amp;habel" newline="True"/>
+            <output expression="&quot;jika aku ingin menjuaal di tahun 2024, maka kita harus menghitung ulang&quot;" newline="True"/>
+            <declare name="tahun, tahun2, naik, maka, jadi, jadi1" type="Integer" array="False" size=""/>
+            <output expression="&quot;aku ingin menjual di tahun&quot;" newline="True"/>
+            <input variable="tahun2"/>
+            <assign variable="naik" expression="habel/10"/>
+            <assign variable="maka" expression="habel+naik"/>
+            <assign variable="tahun" expression="tahun2-tahun1"/>
+            <assign variable="jadi1" expression="naik*tahun+habel"/>
+            <output expression="&quot;maka emas yang kujual di tahun 2024=&quot;&amp;jadi1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
